@@ -185,7 +185,7 @@ final class Application
 
         // 创建sign
         $auth = new Auth\Md5($this->mchId, $this->secret);
-        $public['sign'] = $auth->sign($params);
+        $public['sign'] = $auth->sign($public);
         return $public;
     }
 

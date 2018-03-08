@@ -21,7 +21,7 @@ require_once API_ROOT . '/vendor/autoload.php';
 date_default_timezone_set('Asia/Shanghai');
 
 // 初始化支付
-$trade = new Application(1000030010,"c499ccc18db87d2d2e2ebdb1831b486d", array(
-    "useHTTPS" => false, // 是否使用https，true为使用，默认使用https
-    "useDev" => true, // 是否使用测试环境，true为使用
+$trade = new Application("1003000001","4d8614d60f86319432e2a9b27ef363ff", array(
+    "useHTTPS" => true, // 是否使用https，true为使用，默认使用https
+    "useDev" => false, // 是否使用测试环境，true为使用
 ));
