@@ -2,11 +2,12 @@
     "name": "wuzhenpay/openapi",
     "description": "wuzhenpay开放接口PHPSDK",
     "keywords": [
-        "wuzhenpay", "openapi"
+        "wuzhenpay", "openapi", "wuzhenpay sdk"
     ],
-    "license": "MIT",
-    "homepage": "https://www.wuzhenpay.com/",
+    "license": "GPL-3.0+",
+    "homepage": "http://www.wuzhenpay.com/",
     "type": "library",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "steve xu",
@@ -15,9 +16,8 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5"
+        "php": ">=5.3.3"
     },
     "autoload": {
         "psr-4": {
