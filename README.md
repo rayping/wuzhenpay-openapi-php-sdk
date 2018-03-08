@@ -2,5 +2,5 @@ Wuzhenpay API PHP-SDK
 
 ## Use composer Install
 ```
-"wuzhenpay/openapi": "2.*"
+"wuzhenpay/openapi": "2.*.*"
 ```
