@@ -74,6 +74,11 @@ final class TradePay
      */
     private $attach;
 
+    /**
+     * @var 备注
+     */
+    private $remarks;
+
     public function setPayType($payType=null) {
         $this->payType = $payType;
     }
@@ -156,5 +161,12 @@ final class TradePay
     }
     public function getAttach() {
         return $this->attach;
+    }
+
+    public function setRemarks($remarks=null) {
+        $this->remarks = $remarks;
+    }
+    public function getRemarks() {
+        return $this->remarks;
     }
 }
