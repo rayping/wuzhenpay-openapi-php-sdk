@@ -79,6 +79,11 @@ final class TradePay
      */
     private $remarks;
 
+    /**
+     * @var 推送目标
+     */
+    private $target;
+
     public function setPayType($payType=null) {
         $this->payType = $payType;
     }
@@ -168,5 +173,12 @@ final class TradePay
     }
     public function getRemarks() {
         return $this->remarks;
+    }
+
+    public function setTarget($target=null) {
+        $this->target = $target;
+    }
+    public function getTarget() {
+        return $this->target;
     }
 }

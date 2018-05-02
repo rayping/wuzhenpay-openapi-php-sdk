@@ -88,6 +88,7 @@ final class Application
         $params['terminal_id'] = $tradePay->getTerminalId();
         $params['attach'] = $tradePay->getAttach();
         $params['remarks'] = $tradePay->getRemarks();
+        $params['target'] = $tradePay->getTarget();
 
         // 获取请求参数
         $requestParams = $this->getRequestParams($params);
