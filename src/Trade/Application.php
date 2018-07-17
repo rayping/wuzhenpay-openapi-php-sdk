@@ -82,6 +82,7 @@ final class Application
         $params['time_expire'] = $tradePay->getTimeExpire();
         $params['notify_url'] = $tradePay->getNotifyUrl();
         $params['openid'] = $tradePay->getOpenid();
+        $params['sub_appid'] = $tradePay->getSubAppid();
         $params['buyer_id'] = $tradePay->getBuyerId();
         $params['auth_code'] = $tradePay->getAuthCode();
         $params['operator_id'] = $tradePay->getOperatorId();

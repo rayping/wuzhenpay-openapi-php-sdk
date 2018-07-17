@@ -50,6 +50,11 @@ final class TradePay
     private $openid;
 
     /**
+     * @var 微信子商户appid
+     */
+    private $subAppid;
+
+    /**
      * @var 买家的支付宝用户id，支付宝扫码支付时必选，买家支付宝用户ID
      */
     private $buyerId;
@@ -131,6 +136,13 @@ final class TradePay
     }
     public function getOpenid() {
         return $this->openid;
+    }
+
+    public function setSubAppid($subAppid=null) {
+        $this->openid = $subAppid;
+    }
+    public function getSubAppid() {
+        return $this->subAppid;
     }
 
     public function setBuyerId($buyerId=null) {
