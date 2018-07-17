@@ -139,7 +139,7 @@ final class TradePay
     }
 
     public function setSubAppid($subAppid=null) {
-        $this->openid = $subAppid;
+        $this->subAppid = $subAppid;
     }
     public function getSubAppid() {
         return $this->subAppid;
@@ -167,14 +167,14 @@ final class TradePay
     }
 
     public function setTerminalId($terminalId=null) {
-        $this->openid = $terminalId;
+        $this->terminalId = $terminalId;
     }
     public function getTerminalId() {
         return $this->terminalId;
     }
 
     public function setAttach($attach=null) {
-        $this->openid = $attach;
+        $this->attach = $attach;
     }
     public function getAttach() {
         return $this->attach;
